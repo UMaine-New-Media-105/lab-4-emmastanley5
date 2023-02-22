@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+ myCircle(200,300,80)
+ mynewFunction(200)
+  mySquare()
+}
+  
+function myCircle (x,y,circleSize){
+  ellipse(x,y,circleSize) 
+}
+
+function mynewFunction(x){
+   triangle(x,60,60,50,200,200)
+}
+  
+  
+ function mySquare (){
+     square(30,200,100)
+ }
+  
+
+  
